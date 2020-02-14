@@ -1,0 +1,44 @@
+.albumcover1 {
+	width: 500px;
+	z-index: 1;
+	left: 50px;
+}
+
+.albumcover1:hover {
+	position: relative;
+	bottom: 20px;
+}
+
+.albumcover2 {
+	width: 500px;
+	bottom: 20px;
+	z-index: 2;
+}
+
+.albumcover2:hover {
+	position: relative;
+	bottom: 20px;
+}
+
+.albumcover3 {
+	width: 500px;
+	position: relative;
+	z-index: 3;
+}
+
+.albumcover3:hover {
+	position: relative;
+	bottom: 20px;
+}
+
+
+.albumcover4 {
+	width: 500px;
+	bottom: 20px;
+	z-index: 4;
+}
+
+.albumcover4:hover {
+	position: relative;
+	bottom: 20px;
+}
