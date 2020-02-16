@@ -1,0 +1,35 @@
+body {
+  background: #466368;
+  background: -webkit-linear-gradient(#ff0a23, #fa3c82);
+  background:    -moz-linear-gradient(#e933f2, #a12cd4);
+  background:         linear-gradient(#ef16f2, #bde3ff);
+}
+
+
+.nameheader {
+	font-family: sans-serif;
+	font-size: 50px;
+	color: blue;
+	text-align: center;
+}
+
+.header2 {
+	font-family: sans-serif;
+	font-size: 25px;
+	color: cyan;
+	text-align: center;
+}
+
+.paragraph {
+	background-color: yellow;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.highlight {
+	background-color: purple;
+}
+
+.strawberry {
+	position: relative center;
+}
