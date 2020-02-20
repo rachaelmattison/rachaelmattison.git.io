@@ -1,0 +1,81 @@
+/*body {
+	background-image: url(babyimawantyou.gif);
+	background-repeat: repeat-x;
+}
+*/
+body {
+	text-align: center;
+	align-items: center;
+	/*align-items: center;*/
+}
+
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 33.3%;
+	padding: 5px;
+}
+
+/*.column2 {
+	flex: 33.3%;
+	width: 700px;
+}*/
+
+.bigpic {
+	z-index: 1;
+	position: absolute;
+	width: 600px;
+	/*right: 300px;*/
+	
+}
+
+.vinyl {
+	z-index: 2;
+	position: absolute; 
+	width: 750px;
+
+}
+
+
+
+.linkback {
+	position: relative;
+	float: left;
+
+}
+
+.hero-background {
+	background-image: url(images/babyimawantyou.gif);
+	background-color: #cccc;
+	/*height: 500px;
+	width: 500px;
+	background-position: center;
+	background-size: cover;
+}
+
+.textanimation {
+	position: relative;
+	background-color: none;
+	animation-name: ;
+	animation: 10s;
+}
+
+
+
+	/*left: 300px;*/
+	
+
+/*@keyframes vinyl {
+	from { margin-bottom: ; }
+	to { left: 10px; }
+}*/
+
+
+
+.audiotrack {
+	position: relative;
+	z-index: 3;
+}

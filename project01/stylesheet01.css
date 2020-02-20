@@ -1,44 +1,238 @@
+/*body {
+	background-color: #bfd1ff
+}*/
+
+/*.ytvid {
+	position: absolute;
+	width: 100%
+}*/
+
+
+
+.homepageicon {
+	position: relative;
+	width: 70px;
+}
+
+
+
+
+.songtitle {
+	position: center;
+	font-size: 30px;
+	font-family: 'Karla', sans-serif;
+}
+
+
+
 .albumcover1 {
 	width: 500px;
 	z-index: 1;
-	left: 50px;
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
 }
 
 .albumcover1:hover {
-	position: relative;
-	bottom: 20px;
+	position: absolute;
+	bottom: 370px;
+	
 }
 
 .albumcover2 {
 	width: 500px;
-	bottom: 20px;
 	z-index: 2;
+	position: absolute;
+	left: 320px;
+	bottom: 280px;
 }
 
 .albumcover2:hover {
-	position: relative;
-	bottom: 20px;
+	position: absolute;
+	bottom: 350px;
 }
 
 .albumcover3 {
 	width: 500px;
-	position: relative;
+	position: absolute;
 	z-index: 3;
+	left: 340px;
+	bottom: 260px;
 }
 
 .albumcover3:hover {
-	position: relative;
-	bottom: 20px;
+	position: absolute;
+	bottom: 330px;
 }
 
 
 .albumcover4 {
 	width: 500px;
-	bottom: 20px;
 	z-index: 4;
+	position: absolute;
+	left: 360px;
+	bottom: 240px;
 }
 
 .albumcover4:hover {
-	position: relative;
+	position: absolute;
+	bottom: 310px;
+}
+
+.albumcover5 {
+	position: absolute;
+	width: 500px;
+	z-index: 5;
+	left: 380px;
+	bottom: 220px;
+}
+
+
+.albumcover5:hover {
+	position: absolute;
+	bottom: 290px;
+}
+
+.albumcover6 {
+	position: absolute;
+	width: 500px;
+	z-index: 6;
+	left: 400px;
+	bottom: 200px;
+}
+
+.albumcover6:hover {
+	position: absolute;
+	bottom: 270px;
+}
+
+.ab7 {
+	position: absolute;
+	width: 500px;
+	z-index: 7;
+	left: 420px;
+	bottom: 180px;
+}
+
+.ab7:hover {
+	position: absolute;
+	bottom: 250px;
+}
+
+.ab8 {
+	position: absolute;
+	width: 500px;
+	z-index: 8;
+	left: 440px;
+	bottom: 160px;
+}
+
+.ab8:hover {
+	position: absolute;
+	bottom: 230px;
+}
+
+.ab9 {
+	position: absolute;
+	width: 500px;
+	z-index: 9;
+	left: 460px;
+	bottom: 140px;
+}
+
+.ab9:hover {
+	position: absolute;
+	bottom: 210px;
+}
+
+.ab10 {
+	position: absolute;
+	width: 500px;
+	z-index: 10;
+	left: 480px;
+	bottom: 120px;
+}
+
+.ab10:hover {
+	position: absolute;
+	bottom: 190px;
+}
+
+.ab11 {
+	position: absolute;
+	width: 500px;
+	z-index: 11;
+	left: 500px;
+	bottom: 100px;
+}
+
+.ab11:hover {
+	position: absolute;
+	bottom: 170px;
+}
+
+.ab12 {
+	position: absolute;
+	width: 500px;
+	z-index: 12;
+	left: 520px;
+	bottom: 80px;
+}
+
+.ab12:hover {
+	position: absolute;
+	bottom: 150px;
+}
+
+.ab13 {
+	position: absolute;
+	width: 500px;
+	z-index: 13;
+	left: 540px;
+	bottom: 60px;
+}
+
+.ab13:hover {
+	position: absolute;
+	bottom: 130px;
+}
+
+.ab14 {
+	position: absolute;
+	width: 500px;
+	z-index: 14;
+	left: 560px;
+	bottom: 40px;
+}
+
+.ab14:hover {
+	position: absolute;
+	bottom: 110px;
+}
+
+.ab15 {
+	position: absolute;
+	width: 500px;
+	z-index: 15;
+	left: 580px;
 	bottom: 20px;
 }
+
+.ab15:hover {
+	position: absolute;
+	bottom: 90px;
+}
+
+.ab16 {
+	position: absolute;
+	width: 500px;
+	z-index: 16;
+	left: 600px;
+	bottom: 10px;
+}
+
+.ab16:hover {
+	position: absolute;
+	bottom: 70px;
+}
+
