@@ -1,23 +1,36 @@
-body {
+/*body {
   background: #466368;
   background: -webkit-linear-gradient(#ff0a23, #fa3c82);
   background:    -moz-linear-gradient(#e933f2, #a12cd4);
   background:         linear-gradient(#ef16f2, #bde3ff);
 }
+*/
+
+
+body, p {
+	background-color: #ffe3f9;
+}
+
+h1 , h2 , h3 {
+	color: #4c00ff;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+
 
 
 .nameheader {
 	font-family: sans-serif;
 	font-size: 50px;
-	color: blue;
+	color: #4c00ff;
 	text-align: center;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .header2 {
-	font-family: sans-serif;
-	font-size: 25px;
-	color: cyan;
 	text-align: center;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .paragraph {
@@ -29,7 +42,7 @@ body {
 .highlight {
 	background-color: purple;
 }
-
 .strawberry {
-	position: relative center;
+	text-align: center;
+	border-top: 10px;
 }
