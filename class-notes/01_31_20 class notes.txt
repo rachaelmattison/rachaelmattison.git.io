@@ -1,0 +1,100 @@
+
+CORE LAB: 
+
+CLASS NOTES:
+
+
+
+HTML; hyper text markup language 
+		
+Markup language; typesetting, *graphic design* 
+Aka code 
+
+STRUCTURE IS IMPORTANT; layout and typesetting should be understood in its own right, before undergoing other frameworks such as css 
+
+{
+<> opening tag 
+----- content 
+</> closing tag 
+} - element 
+
+
+
+		** forming good habits because html won't show you were the error is, so it will make debugging easier to understand the debugging 
+
+ESSENTIALS:::
+
+"<header>" metadata that comes with the webpage 
+"<body>" main place for all content 
+"!DOCTYPE" tells you what KIND of html you are using, it tells the browser that the file is HTML 
+
+Elements in HTML, ALL obey a hierarchy. 
+
+DOCUMENT --> ROOT ELEMENT <html> --> 
+					
+					Element <head> --> 
+Unicode: 
+<span> is basically saying all text/ paragraphs have a background color 
+
+- Inline elements 
+- Block elements 
+- Attributes aka properties that belong to HTML elements EX: "src" tells you where it is, what it is, and to load it. 
+
+
+Divs=== are like containers, and you can give styling to it, properties to it, etc. and to incase all the file page's webpage. 
+
+XML: 
+
+Tags and files that your computer can take a apply it to an html file, load onto the net 
+
+
+
+**webgL
+
+***********HAVE TO HAVE AN INDEX.HTML FILE AS THE FIRST PAGE OF A WEBSITE***********
+
+
+Dynamic page: EX; a shopping webpage, has to go through card info, banks, transactions, collecting more information about people, 
+
+
+Static page: much simpler, just information, not seeking more information from other users. 
+
+
+TERMINAL:::: 
+Using the file system, = clicking stuff in finder 
+
+Can allow you to do different things that you can't do on finder window;; 
+" Mkdir " make directory, our website, the folder to hold our files of the website. make a folder to put things in, aka HOLD our website 
+
+"Cd" change directory 
+"Cd .. " goes up one directory 
+
+" Touch ... index.html" use to MAKE a new file within that folder 
+
+" Git init"
+" Git add . "
+" Git commit -m " first-commit"
+
+"Git remote add origin " 
+"Git push -u origin master " 
+
+" Git remote" will locate you or allow you to follow commands after it 
+
+
+If you type " -v " after a command it will tell you what version you have of it aka the file. 
+
+
+if you type " Upstream " will give you access to different versions of the code of the files to go to a use. 
+
+
+
+
+
+
+::: HOW WE AEW GOING TO EDIT OUR WEBSITES FOR THE REST OF THE SEMESTER:::: 
+
+
+
+
+
+

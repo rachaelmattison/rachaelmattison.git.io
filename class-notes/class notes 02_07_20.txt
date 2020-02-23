@@ -1,0 +1,96 @@
+CLASS NOTES: 
+
+Git: 
+	way of saving your files 
+Git hub: 
+	same files online 
+Git repository: 
+	saving your files ONLINE 
+Git hub pages: 	
+	way of saving your files to : end to someone else's computer 
+
+
+
+CSS : rule based language; to tell a web browser how to display a webpage 
+
+'Cascading Style Sheets': define rules of presentation that are applied in stages 
+
+**WELL STRUCTURED html is KEY to GOOD CSS**
+
+
+2 ways to add CSS: 
+<style> </style> 
+
+OR 
+
+A separate CSS file/ page/ or multiple, and including that by using a *link* in the header of the html file 
+
+					- urls are just file paths 
+
+
+
+
+
+CSS SELECTORS: 
+	simple selectors= class, ids 
+
+
+Classes are represented by . 
+Ids are represented by # 
+
+
+/* CLASS AND ID (. AND #) are completely interchangeable/ it is just accustom 
+/* EX: all my image divs can be use ids and all my texts can use classes
+/* you can have an div with multiple ids but you can't have a div with multiple classes
+
+
+
+You can also select elements whole elements 
+ID is more important than CLASS 
+
+
+
+HEX CODES: separate indicators of red,  blue, green 
+ Hexadecimal; goes up to 16, square root, it is the 4th pair of 2s, computers LOVE 2s. Computers can really only count to 2. 
+Color spectrum, 16x16x16 
+
+
+Color cube; colors as a coordinate space. 
+
+
+CSS FONTS: 
+
+"Web-safe" fonts 
+HTML: elements 
+CSS: properties 
+
+
+BOXES: 
+Size can be expressed in: 
+% 
+Px 
+Em 
+Vw, vh
+
+
+Fixed element and absolute element is feature on the css are removed from the document flow
+
+Sticky elements: 
+Sticks floating in a river, can be really useful for mobile sites, 
+
+
+
+
+BOX MODEL: 
+
+Most of what we do in css is handled boxes 
+Boxes in css margin, border, padding
+
+*margins - how spaced out elements are 
+* padding - text and edge of the box 
+
+
+
+
+
+                                  
