@@ -1,0 +1,32 @@
+.my-unique-app-name-default {
+ font-family: $font-stack;
+ width: auto;
+ height: auto;
+ top: auto;
+ bottom: auto;
+ left: auto;
+ right: auto;
+ margin: 0;
+ padding: 0;
+ display: block;
+ background-color: transparent;
+ border-radius: 0;
+ font-weight: normal;
+ font-size: 13px;
+ color: $default-font-color;
+ -webkit-font-smoothing: antialiased;
+ box-shadow: none;
+ border: 0;
+ letter-spacing: normal;
+}
+.my-unique-app-name-sub-class {
+ @extend .my-unique-app-name-default;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ padding-top: 10px;
+}
+.my-unique-app-name-sub-class h4 {
+ @extend .my-unique-app-name-default;
+ font-size: 20px; 
+}
