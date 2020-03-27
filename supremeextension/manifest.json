@@ -2,7 +2,7 @@
 {
 
   "manifest_version": 2,
-  "name": "extension",
+  "name": "supreme extension",
   "version": "1.0",
 
   "description": "a parasite on SUPREME ",
@@ -10,7 +10,7 @@
 
   "content_scripts": [
    {
-      "matches": ["*://*.supremenewyork.com/*"],
+      "matches": ["*://*.supremenewyork.com/*", "*://*.supremenewyork.com/random/tupac/*"],
       "js": ["scripts/jquery.min.js", "scripts/supremescript.js"],
       "css" : ["styles/supremestyle.css"]
     } ],
@@ -18,7 +18,10 @@
 
 
 "web_accessible_resources": [
-"img/7762346.jpg"]
-
+"img/7762346.jpg", 
+"vid/supreme-lafayette-street-new-york-1994.mp4",
+"img/https://d2w9rnfcy7mm78.cloudfront.net/4877544/large_d92a3d921d60da77aad57e655fa79eb9.jpg?1566491326?bc=1",
+"https://fonts.google.com/?selection.family=Roboto+Mono:700i"
+]
 
 }

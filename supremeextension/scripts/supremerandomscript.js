@@ -1,0 +1,2 @@
+$('iframe').remove()
+$('.preview-item random movie big_movie us').append('<iframe width="1156" height="650" src="https://www.youtube.com/embed/W1lZTPjynf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
