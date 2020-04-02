@@ -1,11 +1,32 @@
+.supreme-default-extension-style {
+	font-family: times-new-roman;
+	width: auto;
+	height: auto;
+	top: auto;
+	bottom: auto;
+
+} 
+
+.supreme-default-sub-extension-style {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+
 #left_pane {
 	width: 700px;
 	height: 700px;
 	margin-left: 550px;
+	color: blue;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 .p {
-	font-size: 28px;
+	font-size: px;
 	font-family: times-new-roman;
 	font-style: bold;
 	color: red;
@@ -14,4 +35,35 @@
 .home-us {
 	background-color: transparent;
 }
+
+.hidden {
+	display: none;
+}
+
+
+#wrap:hover {
+	color: blue;
+	background-color: #daff82;
+}
+
+#time-zone-name:hover {
+	color: blue;
+	background-color: #daff82;
+	font-size: 50px;
+	font-family: chicago;
+}
+
+.logo:hover {
+	width: 100px;
+	height: 50px;
+}
+
+#stores-list {
+	font-size: 100px;
+	font-family: chicago;
+}
+
+
+
+
 

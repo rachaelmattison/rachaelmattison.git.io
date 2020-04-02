@@ -1,112 +1,94 @@
- // $('header').onclick(function(){
- // 	$(this).css({"background-color" : "green"})
- // });
-
-// var imgs = document.querySelectorAll("img");
 
 
-// for (var i = 0, 1=imgs.length; i < 1; i++) {
-// 	imgs[i].src="https://d2w9rnfcy7mm78.cloudfront.net/4877544/large_d92a3d921d60da77aad57e655fa79eb9.jpg?1566491326?bc=1";
-// }
-
-// $('img').attr({'src': 'https://www.youtube.com/watch?v=CXaAgSMhnfs'});
-
-
-
-// document.querySelector('span').body.style.backgroundColor('purple');
-
-// var image = document.createElement('div');
-// var node = document.createObjectNode("7762346.jpg");
-
-// image.appendChild(node);
-// 	document.getElementById('header').appendChild(image);
-
-
-// // On Mouse-over, execute myFunction
-// // function myFunction() {
-// // 	document.getElementByClassName('logo').click(); 
-
-// }
-
-// $('#header').click( function() {$(this).html('<img src ="https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0"')})
-// $('.logo').remove()
-// should i remove the navigation? and just work with the main page? or just remove all of the navigations except one? 
-
-// $('#wrap').remove()
-
-// $('.header').click( function() {$(this).css({"translateY(300px)": "rotateZ(120deg)"})}) 
 $('.logo').click( function() {$(this).css({"transform" : "rotate(180deg)"})}) 
 
-// $('#wrap').css( {"background-color" : "red"})
 
-// $('img').css( {"background-image", "url(img/7762346.jpg"})
 
-$('.news_container').css ( {"background-image" : 'url"img/7762346.jpg"'})
-$('.news_page_container').remove()
+$('.news_container').css ( {"background-image" : 'url("img/7762346.jpg")'})
 
-$('#background-image-container').html('<img src="https://d2w9rnfcy7mm78.cloudfront.net/4877544/large_d92a3d921d60da77aad57e655fa79eb9.jpg?1566491326?bc=1">');
 
-// var image = document.createElement.innerHTML('<img src = "https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0">');
-// document.appendChild(image);
-// $('#header').append(image)
-document.body.style.border = "5px solid blue";
+document.body.style.border = "5px solid blue"; 
 
-// var video = document.createElement('div');
-// var node = document.createElementNode("<iframe width="1156" height="650" src="https://www.youtube.com/embed/W1lZTPjynf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>")
 
-// document.body.innerHTML = <iframe width="1156" height="650" src="https://www.youtube.com/embed/W1lZTPjynf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
 
-// $('.home').click( function() { 
-// var video = $(this).attr('video');
-// $('body').prepend('<iframe width="1156" height="650" src="https://www.youtube.com/embed/W1lZTPjynf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
-// })
+$('.news.news3.us').css( {"background-image" : 'url("https://media3.giphy.com/media/mrk2xCFr1g52/source.gif"'})
 
-var video = document.createElement('div');
-$('.home').attr('video');
-$('body').prepend('<iframe width="1156" height="650" src="https://www.youtube.com/embed/W1lZTPjynf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+// var vid = document.createElement('iframe');
+
+
+
+var time = document.createElement('p');
+var node = document.createTextNode("   03/31/1994");
+time.appendChild(node);
+$('#time-zone-name').append(time)
+
+
+var para2 = document.createElement('p');
+var node = document.createTextNode("“I always really liked what was coming out of the skate world,” Jebbia says. “It was less commercial—it had more edge and more fuck-you type stuff.” So he decided to open his own skate shop on Lafayette Street. Lafayette was then a relatively quiet strip of antiques stores, a firehouse, and a machinist, but also a Keith Haring shop—a downtown art-scene connection that, in hindsight, was key. Jebbia built a spare space (the very notions of spare and clean soon becoming Supreme trademarks), then brought in good skateboards, cranked the music, and played videos constantly—wildly disparate things like Muhammad Ali fight videos and Taxi Driver—to draw onlookers.")
+para2.appendChild(node);
 
 
 // $('#left_pane').click
 var para = document.createElement('p');
 var node = document.createTextNode("“My thing has always been that the clothing we make is kind of like music,” Jebbia says. “There are always critics that don’t understand that young people can be into Bob Dylan but also into the Wu-Tang Clan and Coltrane and Social Distortion. Young people—and skaters—are very, very open-minded . . . to music, to art, to many things, and that allowed us to make things with an open mind.”");
 para.appendChild(node);
-$('#left_pane').append(para)
-$('#left_pane').click( function() {$(this).css({"font-family" : "Times-new-roman"})})
-$('#left_pane').click( function() {$(this).css({"color" : "red"})})
-// $('.turbolink_scroll_container').remove()
-// $('#news_scroll_container').remove()
-$('#left_pane').css( {"transform" : "rotate(20deg)"})
-$('#left_pane').click( function() {$(this).css({"transform" : "rotate(-20deg)"})})
-$('#top_notice').remove()
+$('#wrap').append(para)
 
-$('body').css( {"background-color" : "none"})
+
+var addy = document.createElement('h1');
+var node = document.createTextNode("274 Lafayette Street New York City, NY 10029");
+addy.appendChild(node);
+$('#stores-list').append(addy)
+
+
+var news = document.createElement('h2');
+var node = document.createTextNode("19 YEAR OLD, JAMES JEBBIA OPENS UP SKATESHOP IN LOWER EAST SIDE NEW YORK CITY: APRIL 1994");
+news.appendChild(node);
+$('#left_pane').append(news)
+
+$('#left_pane').css( {"background-color" : "#daff82"})
+
+
+
+
 $('body').css( {"background-image" : 'url"https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0"'})
-
+$('#wrap').css( {"background-image" : 'url"https://d2w9rnfcy7mm78.cloudfront.net/4877544/large_d92a3d921d60da77aad57e655fa79eb9.jpg?1566491326?bc=1"'})
 // $('.home us').css( (background-color).remove())?????????????
 
-// $('body').html('<img src="https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0">')
-$('body').css( {"background-color" : "red"})
 
-$('#nav').remove()
-// $('#header').removeAttr()
-// $('body').html('<img src="https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0">')
-
-// document.body.style.backgroundImage='url(https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0")'
-
-$('.logo').click( function() {$(this).css({"transform" : "rotate(180deg)"})})
-
-// $('.home us').css( {"background-color" : "transparent"})
+$('.home.us').css( {"background-color" : "transparent"})
 
 
 
+$('#movie-tupac-1585658790').remove()
+$('#movie-tupac-1585657574_jwplayer_display_image').remove()
+$('#news_link').remove()
+$('.desktop-preview').remove()
+$('#collections-container').remove()
+$('.store').remove()
+$('.news_page_container').remove()
+$('img').remove()
+$('#background-image-container').remove()
+$('b').remove()
+$('.blurb').remove()
+$('br').remove()
+// $('.store').remove()
+ $('#top_notice').remove()
+ $('.lookbook_link').remove()
+ $('.shop_link').remove()
+ $('.no-right-padding').remove()
+$('#right_pane').remove()
+$('.turbolink_scroll_container').remove()
+$('[itemprop="streetAddress"]').remove()
 
 
+// $('#left_pane').prepend ({"background-image" : "url'https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0'"})
+$('#left_pane').css( {"background-color" : "none"})
 
-
-
-
-
-
+$('.about.us').css( {"background-image" : 'url("https://nssdata.s3.amazonaws.com/images/galleries/19886/kids-cover-20150626452210.jpg")'})
+$('.home.us').css( {"background-image" : 'url("https://nssdata.s3.amazonaws.com/images/galleries/19886/supreme-clothing-history-1.jpg")'})
+$('.preview-36.layout1.us').css( {"background-image" : 'url("https://d2w9rnfcy7mm78.cloudfront.net/6523134/original_f8098b8e884a079c5d204ff08a25be44.jpg?1584754252?bc=0")'})
+$('.stores.us').css( {"background-image" : 'url("https://static.highsnobiety.com/thumbor/5gU_lITJJSQ-5FQVjez2yJvR_3w=/fit-in/960x576/smart/static.highsnobiety.com/wp-content/uploads/2019/04/21135602/supreme-Lafayette-25th-anniversary-feat.jpg")'})
 
 
 
