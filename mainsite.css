@@ -46,3 +46,37 @@ h1 , h2 , h3 {
 	text-align: center;
 	border-top: 10px;
 }
+
+#flowers {
+	color: red;
+	padding: 3px;
+	font-size: 20px;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#color {
+	color: magenta;
+	padding: 3px;
+	font-size: 20px;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#size {
+	color: blue;
+	padding: 3px;
+	font-size: 20px;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#location {
+	color: yellow;
+	padding: 3px;
+	font-size: 20px;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
