@@ -42,16 +42,33 @@ h1 , h2 , h3 {
 .highlight {
 	background-color: purple;
 }
-.strawberry {
-	text-align: center;
-	border-top: 10px;
+.strawberry1 {
+	display: inline-block;
+	margin: 20px;
+	width: 250px;
+
 }
+
+.strawberry2 {
+	display: inline-block;
+	margin: 20px;
+	width: 300px;
+}
+
+.box {
+	border: 2px solid magenta;
+	margin: 5px;
+	padding: 10px;
+}
+
 
 #flowers {
 	color: red;
 	padding: 3px;
 	font-size: 20px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -60,6 +77,8 @@ h1 , h2 , h3 {
 	padding: 3px;
 	font-size: 20px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -68,6 +87,8 @@ h1 , h2 , h3 {
 	padding: 3px;
 	font-size: 20px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -76,6 +97,8 @@ h1 , h2 , h3 {
 	padding: 3px;
 	font-size: 20px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	font-family: 'Roboto Mono', monospace;
 }
 

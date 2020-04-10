@@ -56,9 +56,9 @@ var flowers = [
 
 {
 	"name": "9.pansie",
-"color": "9.purple",
-"location": "9.Europe",
-"size": "9.small"
+	"color": "9.purple",
+	"location": "9.Europe",
+	"size": "9.small"
 },
 
 {
@@ -77,31 +77,31 @@ var flowers = [
 
 {
 	"name": "12.lavander",
-"color": "12.purple",
-"size": "12.large",
-"location": "12.Africa"
+	"color": "12.purple",
+	"size": "12.large",
+	"location": "12.Africa"
 },
 
 {
 	"name": "13.lilac",
-"color": "13.purple",
-"size": "13.large",
-"location": "13.Europe"
+	"color": "13.purple",
+	"size": "13.large",
+	"location": "13.Europe"
 },
 
  
 {
 	"name": "14.violet",
-"color": "14.purple",
-"size": "14.small",
-"location": "14.North America"
+	"color": "14.purple",
+	"size": "14.small",
+	"location": "14.North America"
 },
 
 {
 	"name": "15.jasmine",
-"color": "15.white",
-"size": "15.small",
-"location": "15.Europe"
+	"color": "15.white",
+	"size": "15.small",
+	"location": "15.Europe"
 },
 
 {
