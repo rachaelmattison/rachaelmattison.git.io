@@ -1,0 +1,9 @@
+#wrap {
+	color: red;
+	padding: 3px;
+	font-size: 95px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-family: 'Roboto Mono', monospace;
+}

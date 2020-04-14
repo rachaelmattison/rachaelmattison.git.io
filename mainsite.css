@@ -103,3 +103,45 @@ h1 , h2 , h3 {
 }
 
 
+
+
+.rectangle {
+	border: solid black 2px;
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	left: 50%;
+	top: 50%;
+	background-color: white;
+	z-index: 1;
+	
+}
+
+.circles {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	border: solid black 2px;
+	z-index: 2;
+}
+
+
+
+
+.rectangle2 {
+	border: solid black 2px;
+	background-color: white;
+	width: 10px;
+	height: 98px;
+	left: 20%;
+	top: 20%;
+	z-index: 3;
+}
+
+
+

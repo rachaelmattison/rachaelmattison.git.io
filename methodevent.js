@@ -1,15 +1,24 @@
+
+// $('.flower').scroll(function(){
+// 	$("span").text(x += 4);
+// });
+
+
 var flowers = [
 {
 	"name": "1.rose",
 	"color":"1.red", 
 	"size": "1.medium",
 	"location": "1.Asia", 
+	"image": "rose.jpg"
 },
 {
 	"name" : "2.daisy",
 	"color": "2.white",
 	"size": "2.size",
-	"location" : "2.Europe"
+	"location" : "2.Europe",
+	"url" : ""
+
 },
 	
 {
@@ -90,7 +99,7 @@ var flowers = [
 },
 
  
-{
+{	
 	"name": "14.violet",
 	"color": "14.purple",
 	"size": "14.small",
@@ -112,60 +121,28 @@ var flowers = [
 }
 ]
 
-// for(var i=0; i<flowers.length; i++){
-// 	$('#flowers', '#color', '#size', '#location').append("div class='box'>"+
-// 		flowers[i].name+"<br>" +
-// 		'is'+ flowers[i].color + "<br>"+
-// 		'is' + flowers[i].size + "<br>"+
-// 		'and' + flowers[i].location + "<br>" +
-// 		"</div>")
-// }
 
-for (var i=0; i<flowers.length; i++){
-$('#flowers').append(flowers[i].name + "<ol>")
-console.log(flowers[i])
-}
-  
-// for(var i=0; i<fruits.length; i++){
 
-// 	var flowersDiv = $('<div/>', {
-// 		'class' : 'box'
 
-// 	})
-// 	.html(flowers[i].name)
-// 	.data('flowers', flowers[i])
-// 	.data('clicked', false)
-// 	.css({'background-color' : flowers[i].color})
-// 	.click(function(){$(this).data('flowers').shape})
-//  $('#flowers').append(flowersDiv)
-// }
 
 
 for (var i=0; i<flowers.length; i++){
-	$('#color').append(flowers[i].color + "<ol>")
-	console.log(flowers[i])
+	var flowersDiv = $('#wrap')
+	// .data('flower', flowers[i])
+	// .html(flowers[i].name)
+	// .click(function(){console.log($(this).data("flower").name)})
+	// $('#wrap').append(flowersDiv)
+	$('#wrap').append(flowers[i].name + "<ol>")
+	
 }
 
-for (var i=0; i<flowers.length; i++){
-	$('#size').append(flowers[i].size + "<ol>")
-	console.log(flowers[i])
-}
-
-for (var i=0; i<flowers.length; i++){
-	$('#location').append(flowers[i].location + "<ol>")
-	console.log(flowers[i])
-}
-
-//  var flowersDiv = $('<div/>'), {
-//  	.click(function(){ console.log("hello")}
-
-//  	$('#flowers').append(flowersDiv)
-//  }
- 	
 
 
 
 
-
-
-
+// var flowers = 0;
+// $(document).ready(function(){
+// 	$(".flower").scroll(function(){
+// 		$("span").text( x+= 1);
+// 	});
+// };
