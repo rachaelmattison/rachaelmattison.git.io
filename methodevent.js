@@ -127,13 +127,13 @@ var flowers = [
 
 
 for (var i=0; i<flowers.length; i++){
-	var flowersDiv = $('#wrap')
-	// .data('flower', flowers[i])
-	// .html(flowers[i].name)
-	// .click(function(){console.log($(this).data("flower").name)})
-	// $('#wrap').append(flowersDiv)
-	$('#wrap').append(flowers[i].name + "<ol>")
-	
+	var flowersDiv = $('<div/>', {
+		'class' : 'clickBox'
+	})
+	.html(
+		'<span class="name">' + flowers[i].name + 
+		</span> )
+		
 }
 
 
