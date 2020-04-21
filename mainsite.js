@@ -112,33 +112,10 @@ var flowers = [
 }
 ]
 
-// for(var i=0; i<flowers.length; i++){
-// 	$('#flowers', '#color', '#size', '#location').append("div class='box'>"+
-// 		flowers[i].name+"<br>" +
-// 		'is'+ flowers[i].color + "<br>"+
-// 		'is' + flowers[i].size + "<br>"+
-// 		'and' + flowers[i].location + "<br>" +
-// 		"</div>")
-// }
 
 for (var i=0; i<flowers.length; i++){
 $('#flowers').append(flowers[i].name + "<ol>")
-console.log(flowers[i])
 }
-  
-// for(var i=0; i<fruits.length; i++){
-
-// 	var flowersDiv = $('<div/>', {
-// 		'class' : 'box'
-
-// 	})
-// 	.html(flowers[i].name)
-// 	.data('flowers', flowers[i])
-// 	.data('clicked', false)
-// 	.css({'background-color' : flowers[i].color})
-// 	.click(function(){$(this).data('flowers').shape})
-//  $('#flowers').append(flowersDiv)
-// }
 
 
 for (var i=0; i<flowers.length; i++){
@@ -156,12 +133,6 @@ for (var i=0; i<flowers.length; i++){
 	console.log(flowers[i])
 }
 
-//  var flowersDiv = $('<div/>'), {
-//  	.click(function(){ console.log("hello")}
-
-//  	$('#flowers').append(flowersDiv)
-//  }
- 	
 
 
 

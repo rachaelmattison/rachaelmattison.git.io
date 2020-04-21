@@ -5,23 +5,46 @@
 	<link rel="stylesheet" href="mainsite.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 	<title> Jquery Method Events</title>
+<!-- <style> 
+	.onScroll {
+		positoin: fixed;
+	}
+
+</style> -->
+
 </head>
 <h2 class="header2"> Flower Method Events </h2>
 <body>
 
-<div id="wrap">
-<div class="flowers">
+<div id="flowers">
+<div id="color">
+	<div id="size">
+		<div id="location">
 </div>
 </div>
-
+</div>
+</div>
 
 </body>
 
+<!-- <script> 
+	var counter = 0;  
+
+$(window).onScroll(function( event ) {
+	var flowersDiv = $('</div>', {
+		'class' : 'onScroll'
+	})
+	.html(flowers[counter%flowers.length].color)
+	.css({'top' : event.pageY-50, 'left' : event.pageX-50})
+
+	counter = counter +1;
+	$('body').append(flowersDiv)
+})
+</script> -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js">
 </script>
-<script type="text/javascript" src="methodevent.js">
+
+<script type="text/javascript" src="mainsite.js">
 </script>
-<!-- <script type="text/javascript" src="mainsite.js">
-</script> -->
 </html>

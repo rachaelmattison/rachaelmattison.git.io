@@ -1,3 +1,71 @@
 body {
-	background-color: #ffe3f9;
+	background-color: black;
 }
+
+
+
+/*img:hover {
+	width: 100px;
+	height: 100px;
+	background-color: magenta;
+	animation-name: img;
+	animation-duration: 4s;
+
+}*/
+
+	#objectsArray {
+		align-content: center;
+		font-family: 'Roboto Mono', monospace;
+		color: white;
+		font-size: 10px;
+		float: center;
+	}
+
+
+
+
+img {
+		max-width: 40px;
+		flex-wrap: wrap;
+		display: flex;
+		float: left;
+		border: none;
+		padding: 4px;
+	}
+	
+@keyframes enlarge {
+	from {background-color: magenta;}
+	to {background-color: cyan;}
+}	
+img:hover {
+		max-width: 180px;
+		background-color: magenta;
+		animation-name: enlarge;
+		animation-duration: 4s;
+}
+
+	/*.box {
+		padding: 1px;
+		color: white;
+		width: 80%;
+  		text-align: left;
+  		padding: 10px 20px;
+}*/
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
