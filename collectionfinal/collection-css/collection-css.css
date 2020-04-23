@@ -1,5 +1,8 @@
 body {
-	background-color: black;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 
@@ -13,47 +16,60 @@ body {
 
 }*/
 
-	#objectsArray {
+	.objectsArray {
 		align-content: center;
-		font-family: 'Roboto Mono', monospace;
-		color: white;
-		font-size: 10px;
-		float: center;
+
 	}
 
 
 
 
 img {
-		max-width: 40px;
-		flex-wrap: wrap;
-		display: flex;
-		float: left;
-		border: none;
-		padding: 4px;
-	}
-	
+	max-width: 30px;
+	float: left;
+	border: none;
+	padding: 4px;
+
+}
+
 @keyframes enlarge {
 	from {background-color: magenta;}
 	to {background-color: cyan;}
 }	
+
+
 img:hover {
-		max-width: 180px;
+		max-width: 300px;
 		background-color: magenta;
 		animation-name: enlarge;
 		animation-duration: 4s;
+		position: relative;
+	
 }
 
-	/*.box {
-		padding: 1px;
-		color: white;
-		width: 80%;
-  		text-align: left;
-  		padding: 10px 20px;
-}*/
+
+.objectsTitle {
+	position: absolute;
+	overflow-y: hidden;
+	font-family: 'Roboto Mono', monospace;	
+	font-size: 10px;
+	color: red;
+
+}
+		
 
 
-	
+.box {
+	position: relative;
+  	width: 150px;
+  	display: block;
+  	background-color: white;
+  	padding: 1px;
+  	opacity: 60%;
+}
+
+
+
 
 
 

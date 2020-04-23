@@ -527,7 +527,7 @@ var images = [
 },
 {
 	"pic" : "<img src='https://d2w9rnfcy7mm78.cloudfront.net/6931936/large_5e66e18e07fcb09293b2139932ed5daf.jpg?1587320208?bc=0'>",
-	"title" : "sent this to my booski, who's a chef, who dressed up as gUy ferrari for halloween, found it on twitter. Good shit. ",
+	"title" : "found on twitter, Good shit; sent it to Mi, who's a chef, who dressed up as gUy ferrari for halloween.  ",
 	"color" : "burgundy"
 },
 {
@@ -853,80 +853,38 @@ var images = [
 ]
 
 for(var i=0; i<images.length; i++){
+	$('.objectsTitle').append("<div class='box'>" + 
+		images[i].title + "<p>" +
+		"</div>")
+}
+
+// for(var i=0; i<images.length; i++){
+// 	var imagesTitle = $('<div/>', {
+// 		'class' : 'box'
+// 	})
+// 	.html(images[i].title)
+// 	$('.objectsTitle').append(imagesTitle)
+// }
+
+
+for(var i=0; i<images.length; i++){
 	var imagesDiv = $('<div/>')
 	.data('images', images[i])
 	.html(images[i].pic)
 	.css({'background-image' : images[i].pic})
-	.click(function(){$(this).append($(this).data("images").title)})
-	
-	$('#objectsArray').append(imagesDiv)
+
+	$('.objectsArray').append(imagesDiv)
 }
 
 
 
 
-function onScroll(color) {
-	document.getELementById('objectsArray').style.backgroundColor=color;
-}
-
-
-var color = 0;
-document.onmousemove = function (event) { 
-div.style.top = event.y + "px";
-div.style.left = event.x + "px";
-div.style.backgroundColor = "hsl( "+ color + ", 100%, 50%)";
-document.body.appendChild(div);
-color = color + 1;
-}
-
-// for (var i=0; i<images.length; i++){
-// 	var textsDiv = $('<div/>')
-// 	.data('images', images[i])
-// 	.html(images[i].title)
-// 	.click(function(){$(this).append($(this).data("images").title)})
-
-// }
-
-
-// $('#objectsArray').click(function(){$(this).css({"background-color" : "magenta"})})x
-
-// for(var i=0; i<images.length; i++){
-// 	$('#objectsArray').append("<div class='box' style='background-image: "+ images[i].pic + "`" + 
-// 		images[i].title + "<br>" +
-// 		images[i].color +
-// 		"</div>")
-// }
-
-// for(var i=0; i<images.length; i++){
-// 	console.log(images[i].title + 'has the following properties:')
-// 	for (var j=0; j<images[i].)
-// }
-
-//  for(var i=0; i<images.length; i++){
-//  	$('#objectsArray').append(images[i].pic.length)
-//  	.css({ "background-image" : "images[i].pic.length"})
-// }
 
 
 
 
 
-// for(var i=0; i<images.length; i++){
-// 	$('#portraits').append("<div class='box' style='background-image: "+ images[i].pic + "'>")
 
-// }
-// // for(var i=0; i<images.length; i++){ 
-// 	$('#portraits').append("<div class='box' style='background-image: "+ images[i].pic + "'>") 
-// 	.css( {"background-image" : images[i].pic })
-// }
-
-// for(var i=0; i<images[0].length; i++){
-// 	$('#portraits').append("<div class='box'")
-// }
-
-// for (var i=0; i<images[i].pic.length; i++){
-// 	$('#objectsArray').append("<div class='box'style='background-image: "+ images[i].pic.length + "'>")
-// }
 
 
 
