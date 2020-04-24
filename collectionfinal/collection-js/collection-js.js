@@ -856,6 +856,7 @@ for(var i=0; i<images.length; i++){
 	$('.objectsTitle').append("<div class='box'>" + 
 		images[i].title + "<p>" +
 		"</div>")
+
 }
 
 // for(var i=0; i<images.length; i++){
@@ -868,7 +869,9 @@ for(var i=0; i<images.length; i++){
 
 
 for(var i=0; i<images.length; i++){
-	var imagesDiv = $('<div/>')
+	var imagesDiv = $('<div/>', {
+		'class' : 'box1'
+	})
 	.data('images', images[i])
 	.html(images[i].pic)
 	.css({'background-image' : images[i].pic})

@@ -5,7 +5,9 @@ body {
 	overflow-x: hidden;
 }
 
-
+html, body {
+	height: 100%;
+}
 
 /*img:hover {
 	width: 100px;
@@ -16,19 +18,23 @@ body {
 
 }*/
 
+.wrap {
+	position: relative;
+}
 	.objectsArray {
-		align-content: center;
-
+		border-left: solid white 150px;
+		border-right: solid white 100px;
+		position: sticky;
 	}
 
 
 
-
 img {
-	max-width: 30px;
-	float: left;
-	border: none;
+	max-width: 159px;
 	padding: 4px;
+	float: left;
+	z-index: 1;
+	position: relative;
 
 }
 
@@ -39,37 +45,55 @@ img {
 
 
 img:hover {
-		max-width: 300px;
+		max-width: 500px;
 		background-color: magenta;
 		animation-name: enlarge;
 		animation-duration: 4s;
-		position: relative;
-	
+		z-index: 2;
+		
 }
+
 
 
 .objectsTitle {
 	position: absolute;
 	overflow-y: hidden;
-	font-family: 'Roboto Mono', monospace;	
-	font-size: 10px;
-	color: red;
-
+	font-family: 'Roboto Mono', monospace;
+	overflow-y: hidden;	
+	font-size: 11px;
+	color: white;
+	display: block;
+	overflow: scroll;
 }
 		
 
 
 .box {
-	position: relative;
   	width: 150px;
+  	background-color: black;
+  	position: sticky;
   	display: block;
-  	background-color: white;
-  	padding: 1px;
-  	opacity: 60%;
+  	overflow: scroll;
+}
+
+
+.box:hover {
+	color: magenta;
 }
 
 
 
+	/*.box {
+		padding: 1px;
+		color: white;
+		width: 80%;
+  		text-align: left;
+  		padding: 10px 20px;
+}
+}*/
+
+
+	
 
 
 
