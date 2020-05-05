@@ -1,0 +1,6 @@
+OBJECT COLLECTION FINAL DOCUMENTATION 
+
+
+So I really am enjoying the collection of images I have and how they are just simply laid out, I want to add different navigation features one of them being clicking on the images and the titles appear. 
+But how do I want the titles to appear? I also kind of want the user to have to look for the titles because they each have extensive 'titles' or descriptions. 
+

@@ -1,10 +1,6 @@
 body {
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+	background-color: black;
 }
-
 html, body {
 	height: 100%;
 }
@@ -18,24 +14,24 @@ html, body {
 
 }*/
 
-.wrap {
+/*.wrap {
 	position: relative;
-}
+}*/
 	.objectsArray {
 		border-left: solid white 150px;
-		border-right: solid white 100px;
+		border-right: solid white 10px;
 		position: sticky;
+		max-width: 80%;
 	}
 
 
 
 img {
-	max-width: 159px;
+	max-width: 122px;
+	max-height: 122px;
 	padding: 4px;
-	float: left;
-	z-index: 1;
-	position: relative;
-
+	float: right;
+	z-index: -1;
 }
 
 @keyframes enlarge {
@@ -46,9 +42,12 @@ img {
 
 img:hover {
 		max-width: 500px;
+		max-height: 500px;
 		background-color: magenta;
 		animation-name: enlarge;
 		animation-duration: 4s;
+		transition: opacity 1s ease-in-out 0s;
+		position: inherit;
 		z-index: 2;
 		
 }
@@ -56,32 +55,49 @@ img:hover {
 
 
 .objectsTitle {
-	position: absolute;
-	overflow-y: hidden;
+	position: fixed;
 	font-family: 'Roboto Mono', monospace;
-	overflow-y: hidden;	
-	font-size: 11px;
+	font-size: 12.1px;
 	color: white;
-	display: block;
-	overflow: scroll;
+	height: 100vh;
+	overflow-y: scroll;
 }
 		
 
-
-.box {
+.title {
   	width: 150px;
   	background-color: black;
-  	position: sticky;
   	display: block;
   	overflow: scroll;
+  	align-content: center;
 }
 
-
-.box:hover {
+.title:hover {
 	color: magenta;
 }
 
+#randomizer {
+	top: 0;
+	left: 0;
+	position: sticky;
+	padding: 10px;
+}
 
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	color: black;
+}
+
+button {
+	font-family: 'Roboto Mono', monospace;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+
+button:hover {
+	color: magenta;
+}
 
 	/*.box {
 		padding: 1px;
@@ -89,6 +105,7 @@ img:hover {
 		width: 80%;
   		text-align: left;
   		padding: 10px 20px;
+}
 }
 }*/
 
