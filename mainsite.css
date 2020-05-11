@@ -7,9 +7,13 @@
 */
 
 
-body, p {
+
+body { 
+	cursor: url('cursor.cur'), auto;
 	background-color: #ffe3f9;
+	height: 100vh;
 }
+
 
 h1 , h2 , h3 {
 	color: #4c00ff;
@@ -42,10 +46,12 @@ h1 , h2 , h3 {
 .highlight {
 	background-color: purple;
 }
-.strawberry1 {
+/*.strawberry1 {
 	display: inline-block;
 	margin: 20px;
-	width: 250px;
+	max-width: 100px;
+	max-height: 100px;
+	position: absolute;
 
 }
 
@@ -53,8 +59,25 @@ h1 , h2 , h3 {
 	display: inline-block;
 	margin: 20px;
 	width: 300px;
+	position: absolute;
+}*/
+
+.gifs {
+	max-width: 100px;
+	top:0;
+	left:0;
+	position: absolute;
+	padding: 10px;
 }
 
+img {
+	max-width: 100px;
+	float: left;
+}
+
+h3:hover {
+	color: magenta;
+}
 .box {
 	border: 2px solid magenta;
 	margin: 5px;
